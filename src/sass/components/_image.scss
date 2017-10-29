@@ -1,0 +1,49 @@
+.carrefour_style_logo{
+    margin-top:20px;
+    margin-left:6%;
+    float: left;
+}
+.carrefour_style_search{
+     margin-top:30px;
+     margin-right : 6%;
+     float: right;
+     border: none;
+}
+
+.search_field_input{
+    background-color: $offwhite-blue;
+    border-color: $offwhite-blue;
+    border: none;
+    float:right;
+    margin-top:30px;
+    margin-right : 6%;
+    width: 10%;
+    &:focus {
+       border: none;
+    }
+}
+.product_wrapper{
+    .carrefour_product_iphone6 {
+        display: inline-block;
+        padding:3% 20px 0px 5%;
+       
+    }
+    .carrefour_product_iphone7{
+        display: inline-block;
+        padding: 3% 20px 0px 20px;
+        
+    }
+    .carrefour_product_iphone8 {
+        display: inline-block;
+        padding:3% 0px 0px 20px;
+        
+    }
+}
+
+.horizontal_rule{
+    width: 90%;
+    height:1%;
+    border: 0;
+    background-color: $offwhite-grey;
+    border: 1px solid $offwhite-grey; 
+}

@@ -1,0 +1,64 @@
+// Configuration and helpers
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+html {
+    font-size: 10px;
+    position: relative
+}
+
+body {
+    font-size: 1em;
+    color: $black;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
+}
+
+*,*:before,*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+input {
+    background-color: $offwhite-grey;
+    border-radius: 0px;
+    border: 1px solid $dark-grey;
+    color: $black;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 200;
+    height: 40px;
+    padding-left: .5em;
+}
+
+
+
+.wrapper {
+    padding: 0px 50px;
+
+    & section {
+        @include align-content-end;
+        padding: 8px 0;
+
+ 
+        &.menucontrol, &.radiocontrol {
+            @include justify-content(flex-start);
+            
+            &.regions{
+                @include justify-content(flex-end);
+            }
+
+            &.outer_box {
+                @include outer_box;
+            }        
+        }
+
+    }
+}
+
+

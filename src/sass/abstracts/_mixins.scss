@@ -1,0 +1,69 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide SASS mixins.
+// -----------------------------------------------------------------------------
+
+@mixin hidden {
+    display: none;
+}
+
+@mixin error {
+	border: 1px solid #dd2d28;
+	font-style: italic;
+}
+
+@mixin display-flex {
+	display: -webkit-flex;
+    display: -ms-flexbox;
+	display: flex;
+}
+
+@mixin flex-flow($flow) {
+	@include display-flex;
+	-webkit-flex-flow: $flow;
+    -ms-flex-flow: $flow;
+    flex-flow: $flow;
+}
+
+@mixin align-content($align-items) {
+	@include display-flex;
+    -webkit-align-items: $align-items;
+	-ms-flex-align: $align-items;
+	align-items: $align-items;
+}
+
+@mixin align-content-center {
+	@include align-content(center);
+}
+
+@mixin align-content-baseline {
+	@include align-content(baseline);
+}
+
+@mixin align-content-start {
+	@include align-content(flex-start);
+}
+
+@mixin align-content-end {
+	@include align-content(flex-end);
+}
+
+@mixin justify-content($align) {
+	-webkit-justify-content: $align;
+    -ms-flex-pack: $align;
+    justify-content: $align;
+}
+@mixin normal-span {
+	font-size : 0.8em ;
+    color: $black;
+    font-weight: 200;
+    letter-spacing: -.5px;
+    display: inline-block;
+    padding: 7px 0px 7px 7px ;
+}
+@mixin outer_box {
+    border: 1px solid $ink-blue;
+    margin-left: 10px;
+    padding-left:  4px; 
+    padding-right: 4px;
+    border-radius: 10px;
+}

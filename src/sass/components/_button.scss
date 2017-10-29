@@ -1,0 +1,18 @@
+.form_button_wrapper{
+    margin-top:6%;
+    display:block;
+
+    .form_button_primary{
+        border: 1px solid $ink-blue;
+        border-radius: 4px;
+        color: $white;
+        background-color: $ink-blue;
+        text-align: center;
+        font-size: 1.6rem;
+        font-style: normal;
+        cursor: pointer;
+        padding:10px;
+        z-index: +18;
+        width:100%;
+    }
+}

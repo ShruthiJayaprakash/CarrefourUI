@@ -1,0 +1,63 @@
+{
+  "name": "carrefourui",
+  "version": "1.0.0",
+  "description": "carrefour static login page with mocked up login functionality",
+  "scripts": {
+    "build": "webpack -p --progress --config ./webpack.production.config.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShruthiJayaprakash/CarrefourUI.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Shruthi.S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShruthiJayaprakash/CarrefourUI/issues"
+  },
+  "homepage": "https://github.com/ShruthiJayaprakash/CarrefourUI#readme",
+  "babel": {
+    "env": {
+      "production": {
+        "plugins": [
+          "transform-react-constant-elements",
+          "transform-react-inline-elements"
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "compression": "^1.7.1",
+    "copy-webpack-plugin": "^4.2.0",
+    "css-loader": "^0.28.7",
+    "es6-promise": "^4.1.1",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "isomorphic-fetch": "^2.2.1",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.5.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-hot-loader": "^3.1.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.20.0"
+  }
+}

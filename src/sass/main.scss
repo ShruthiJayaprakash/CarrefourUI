@@ -1,0 +1,18 @@
+@charset 'UTF-8';
+
+//Resets - Normalize
+@import 'normalize';
+
+// Configuration and helpers
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+// Components
+@import 'components/button';
+@import 'components/forms';
+@import 'components/image';
+
+// Layout-related sections
+@import 'layout/modal';
+
+@import 'master';
