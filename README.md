@@ -38,3 +38,10 @@ npm install
 
 ## Running the project
 
+Run
+
+```bash
+npm start
+```
+
+app will load at http://localhost:8081/
