@@ -45,3 +45,5 @@ npm start
 ```
 
 app will load at http://localhost:8081/
+
+## App was developed in chrome. Works best in chrome and Edge.
