@@ -5,7 +5,7 @@
 http://shruthisstaticwebsite.s3-website.us-east-2.amazonaws.com
 
 
-#Repository 
+# Repository 
 repo location for [Carrefour UI](https://github.com/ShruthiJayaprakash/CarrefourUI)
 
 # Pre-requisites
