@@ -1,5 +1,9 @@
 # Carrefour UI
- UI for the range plan.
+ UI for the carrefour login.
+ 
+# Deployed URL
+http://shruthisstaticwebsite.s3-website.us-east-2.amazonaws.com
+
 
 #Repository 
 repo location for [Carrefour UI](https://github.com/ShruthiJayaprakash/CarrefourUI)
